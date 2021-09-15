@@ -1,5 +1,5 @@
 {
-  "name": "@folio/stripes-registry",
+  "name": "@folio/handler-stripes-registry",
   "version": "1.0.0",
   "description": "frontend registry for Stripes",
   "publishConfig": {
@@ -10,39 +10,26 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "test": "stripes test karma",
     "lint": "eslint .",
-    "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-stripes-registry ./translations/ui-stripes-registry/compiled"
+    "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-handler-stripes-registry ./translations/ui-handler-stripes-registry/compiled"
   },
   "devDependencies": {
-    "@bigtest/interactor": "^0.9.1",
-    "@bigtest/mocha": "^0.5.2",
-    "@bigtest/react": "^0.1.2",
     "@folio/eslint-config-stripes": "^5.2.0",
     "@formatjs/cli": "^4.2.31",
     "babel-eslint": "^10.0.0",
-    "chai": "^4.2.0",
-    "chai-spies": "^1.0.0",
-    "core-js": "^3.6.1",
     "eslint": "^6.2.1",
-    "faker": "^4.1.0",
-    "inflected": "^2.0.4",
-    "miragejs": "^0.1.40",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-intl": "^5.8.1",
-    "react-router-dom": "^5.2.0",
-    "regenerator-runtime": "^0.13.3"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-intl": "^5.8.1"
   },
   "dependencies": {
     "dom-helpers": "^3.4.0",
     "lodash": "^4.17.11",
-    "prop-types": "^15.6.0",
-    "urijs": "^1.19.6"
+    "prop-types": "^15.6.0"
   },
   "peerDependencies": {
-    "@folio/stripes": "^6.0.0",
-    "react": "*",
+    "@folio/stripes": "^7.0.0",
+    "react": "^17.0.2",
     "react-intl": "^5.8.1",
     "react-router-dom": "^5.2.0"
   },
@@ -51,7 +38,7 @@
       "handler"
     ],
     "handlerName": "eventHandler",
-    "displayName": "ui-stripes-registry.meta.title",
+    "displayName": "ui-handler-stripes-registry.meta.title",
     "permissionSets": []
   }
 }
