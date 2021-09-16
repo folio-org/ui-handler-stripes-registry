@@ -14,7 +14,7 @@ App.eventHandler = (event, stripes) => {
     return () => (
       <HandlerManager
         data={Registry}
-        event="ui-stripes-registry-load"
+        event="LOAD_STRIPES_REGISTRY"
         stripes={stripes}
       />
     );

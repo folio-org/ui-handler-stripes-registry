@@ -1,4 +1,4 @@
-# Change history for ui-stripes-registry
+# Change history for ui-handler-stripes-registry
 
 ## 1.0.0 In progress
- * created ui-stripes-registry
+ * created ui-handler-stripes-registry
