@@ -14,7 +14,7 @@
     "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-handler-stripes-registry ./translations/ui-handler-stripes-registry/compiled"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": "^5.2.0",
+    "@folio/eslint-config-stripes": "^6.0.0",
     "@formatjs/cli": "^4.2.31",
     "babel-eslint": "^10.0.0",
     "eslint": "^6.2.1",
