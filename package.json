@@ -11,6 +11,7 @@
   },
   "scripts": {
     "lint": "eslint .",
+    "build-mod-descriptor": "stripes mod descriptor --full --strict | jq '.[]' > module-descriptor.json ",
     "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-handler-stripes-registry ./translations/ui-handler-stripes-registry/compiled"
   },
   "devDependencies": {
