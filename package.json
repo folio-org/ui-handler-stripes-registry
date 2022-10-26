@@ -15,15 +15,15 @@
     "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-handler-stripes-registry ./translations/ui-handler-stripes-registry/compiled"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": "^6.1.0",
+    "@folio/eslint-config-stripes": "^6.3.0",
     "@formatjs/cli": "^4.2.31",
     "@babel/eslint-parser": "^7.15.0",
     "eslint": "^7.32.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-intl": "^5.8.1",
-    "@folio/stripes": "^7.2.0",
-    "@folio/stripes-cli": "^2.6.0"
+    "@folio/stripes": "^7.3.1",
+    "@folio/stripes-cli": "^2.6.1"
   },
   "dependencies": {
     "dom-helpers": "^3.4.0",
@@ -31,7 +31,7 @@
     "prop-types": "^15.6.0"
   },
   "peerDependencies": {
-    "@folio/stripes": "^7.2.0",
+    "@folio/stripes": "^7.3.1",
     "react": "^17.0.2",
     "react-intl": "^5.8.1",
     "react-router-dom": "^5.2.0"

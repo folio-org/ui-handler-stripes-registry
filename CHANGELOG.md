@@ -1,6 +1,8 @@
 # Change history for ui-handler-stripes-registry
 
-## 1.3.0 In progress
+## 1.3.0 2022-10-26
+* Bumped dependencies
+* Set up github actions
 
 ## 1.2.0 2022-07-04
 * ERM-2104 Replace babel-eslint with @babel/eslint-parser
