@@ -1,5 +1,7 @@
 # Change history for ui-handler-stripes-registry
 
+## 1.5.0 In progress
+
 ## 1.4.0 2023-02-22
 * ERM-2561 Increment ui-handler-stripes-registry to Stripes v8
 
