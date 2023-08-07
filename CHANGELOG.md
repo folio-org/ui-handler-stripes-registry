@@ -1,6 +1,8 @@
 # Change history for ui-handler-stripes-registry
 
-## 1.5.0 In progress
+## 2.0.0 In progress
+  * STRIPES-870 BREAKING upgrade react to v18
+    * ERM-2997 Upgrade ui-handler-stripes-registry React to v18
 
 ## 1.4.0 2023-02-22
 * ERM-2561 Increment ui-handler-stripes-registry to Stripes v8
