@@ -1,7 +1,8 @@
 # Change history for ui-handler-stripes-registry
 
-## 2.0.0 In progress
-  * STRIPES-870 BREAKING upgrade react to v18
+## 2.0.0 2023-10-12
+  * ERM-3001 Update Nodejs to v18 in GitHub Actions
+  * STRIPES-870 *BREAKING* upgrade react to v18
     * ERM-2997 Upgrade ui-handler-stripes-registry React to v18
 
 ## 1.4.0 2023-02-22
