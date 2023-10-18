@@ -1,5 +1,8 @@
 # Change history for ui-handler-stripes-registry
 
+## 2.0.1 2023-10-18
+  * SI-39 Update react-intl to v6
+
 ## 2.0.0 2023-10-12
   * ERM-3001 Update Nodejs to v18 in GitHub Actions
   * STRIPES-870 *BREAKING* upgrade react to v18
