@@ -1,6 +1,7 @@
 # Change history for ui-handler-stripes-registry
 
-## 2.1.0 In progress
+## 2.1.0 2024-02-18
+	* Released as 2.1.0 is listed as a dependency in OA released 2.0.0
 
 ## 2.0.1 2023-10-18
   * SI-39 Update react-intl to v6
