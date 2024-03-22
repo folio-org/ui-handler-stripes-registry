@@ -1,5 +1,8 @@
 # Change history for ui-handler-stripes-registry
 
+## 2.2.0 2024-03-22
+  * updated dependencies for Quesnalia release
+
 ## 2.1.0 2024-02-18
 	* Released as 2.1.0 is listed as a dependency in OA released 2.0.0
 
