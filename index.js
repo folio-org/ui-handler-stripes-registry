@@ -21,7 +21,8 @@ const LoadRegistryEvent = withModules(({
     registryEventFired = true;
 
     // Doing our own special version of what HandlerManager does here,
-    // because having to render a component to raise an event is frankly f-ing stupid
+    // because having to render a component to raise the event seems to cause race conditions
+    // when done directly
     modules.handler.reduce((acc, module) => {
       const component = getEventHandler('LOAD_STRIPES_REGISTRY', stripes, module, Registry);
       if (component) {
