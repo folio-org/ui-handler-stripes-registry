@@ -1,4 +1,9 @@
-import { coreEvents, HandlerManager } from '@folio/stripes/core';
+import {
+  coreEvents,
+  getEventHandler,
+  withModules
+} from '@folio/stripes/core';
+
 import Registry from './src/Registry';
 
 const App = () => {
@@ -7,17 +12,30 @@ const App = () => {
 
 // Track whether we've already fired the dash event with a boolean
 let registryEventFired = false;
-App.eventHandler = (event, stripes) => {
-  if (event === coreEvents.LOGIN && registryEventFired === false) {
-    // Ensure event only fired once
+
+const LoadRegistryEvent = withModules(({
+  modules,
+  stripes
+}) => {
+  if (registryEventFired === false) {
     registryEventFired = true;
-    return () => (
-      <HandlerManager
-        data={Registry}
-        event="LOAD_STRIPES_REGISTRY"
-        stripes={stripes}
-      />
-    );
+
+    // Doing our own special version of what HandlerManager does here,
+    // because having to render a component to raise the event seems to cause race conditions
+    // when done directly
+    modules.handler.reduce((acc, module) => {
+      const component = getEventHandler('LOAD_STRIPES_REGISTRY', stripes, module, Registry);
+      if (component) {
+        acc.push(component);
+      }
+      return acc;
+    }, []);
+  }
+});
+
+App.eventHandler = (event, stripes) => {
+  if (event === coreEvents.LOGIN) {
+    return () => <LoadRegistryEvent stripes={stripes} />;
   }
 
   return null;
