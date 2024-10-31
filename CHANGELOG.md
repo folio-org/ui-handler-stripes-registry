@@ -1,6 +1,6 @@
 # Change history for ui-handler-stripes-registry
 
-## 2.3.0 2024-10-30
+## 2.3.0 2024-10-31
   * ERM-3378 Update module license and guidance for ui-handler-stripes-registry
   * Updated dependencies for Ramsons release
 
