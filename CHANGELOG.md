@@ -1,6 +1,8 @@
 # Change history for ui-handler-stripes-registry
 
-## 2.4.0 IN PROGRESS
+## 3.0.0 2025-03-13
+  * ERM-3611 *BREAKING* Stripes v10 dependencies update (#57)
+    * Updated all stripes-* dependencies for the stripes v10 upgrade along with react-intl and formatjs/cli
 
 ## 2.3.0 2024-10-31
   * ERM-3378 Update module license and guidance for ui-handler-stripes-registry
