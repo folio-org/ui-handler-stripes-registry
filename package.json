@@ -1,6 +1,6 @@
 {
   "name": "@folio/handler-stripes-registry",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "frontend registry for Stripes",
   "publishConfig": {
     "registry": "https://repository.folio.org/repository/npm-folio/"
@@ -12,15 +12,15 @@
     "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-handler-stripes-registry ./translations/ui-handler-stripes-registry/compiled"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": "^8.0.0",
+    "@folio/eslint-config-stripes": "^9.0.0",
     "@formatjs/cli": "^6.6.0",
     "@babel/eslint-parser": "^7.15.0",
     "eslint": "^7.32.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-intl": "^7.1.5",
-    "@folio/stripes": "^10.0.0",
-    "@folio/stripes-cli": "^4.0.0"
+    "@folio/stripes": "^10.1.0",
+    "@folio/stripes-cli": "^5.0.0"
   },
   "dependencies": {
     "dom-helpers": "^3.4.0",
@@ -28,7 +28,7 @@
     "prop-types": "^15.6.0"
   },
   "peerDependencies": {
-    "@folio/stripes": "^10.0.0",
+    "@folio/stripes": "^10.1.0",
     "react": "^18.2.0",
     "react-intl": "^7.1.5",
     "react-router-dom": "^5.2.0"

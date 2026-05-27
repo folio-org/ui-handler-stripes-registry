@@ -1,5 +1,8 @@
 # Change history for ui-handler-stripes-registry
 
+## 3.1.1 2026-05-27
+  * Updated Trillium dependencies
+
 ## 3.1.0 2026-04-16
   * Updated licenses and workflows for Trillium release
 
